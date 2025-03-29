@@ -34,7 +34,7 @@ const accounts:Accounts = {
 export const environments: Environments = {
     "production": {
         env: accounts.production,
-        branch: "master",
+        branch: "main",
         requireApproval: true,
         vpcId: "your-vpc-id",
         alias_name : "production-yoti-integration",
