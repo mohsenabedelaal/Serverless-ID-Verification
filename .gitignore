@@ -1,0 +1,18 @@
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.context.json
+
+
+# Parcel default cache directory
+.parcel-cache
+
+# ignore package-lock
+# package-lock.json
+
+# just to test locally
+*local-tester-yoti.js
+
+*.zip

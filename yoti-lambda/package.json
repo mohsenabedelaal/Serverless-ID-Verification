@@ -1,0 +1,20 @@
+{
+  "name": "yoti-cdk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0",
+    "@aws-sdk/client-secrets-manager": "^3.609.0",
+    "@aws-sdk/client-ssm": "^3.606.0",
+    "serverless-mysql": "^1.5.4",
+    "string-similarity": "^4.0.4",
+    "yoti": "4.9.0",
+    "axios": "^1.6.8"
+  },
+  "devDependencies": {
+    "@getyoti/sdk-sandbox": "1.7.0"
+  }
+}

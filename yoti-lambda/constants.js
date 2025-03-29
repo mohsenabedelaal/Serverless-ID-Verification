@@ -1,0 +1,49 @@
+const HTTPMETHOD = {
+    GET:"GET",
+    POST:"POST",
+    PUT:"PUT",
+    DELETE:"DELETE"
+}
+
+
+const HTTP_STATUS_CODE = {
+    'COMPLETED': 200,
+    'CREATED':201,
+    'INTERNAL_SERVER_ERROR': 500,
+    'BAD_REQUEST': 400,
+    'NOT_FOUND':404
+}
+
+
+
+const YOTI_FLOW = {
+    MANUAL_VERIFICATION : "manual",
+    VERIFICATION_LATER: "later",
+    NEED_REVIEW: "review"
+}
+
+const ENVIRONMENT = {
+    PRODUCTION:"production"
+}
+
+const SESSION_STATUS = {
+    COMPLETED:"COMPLETED",
+    IN_PROGRESS:"IN PROGRESS",
+    EXPIRED:"EXPIRED"
+}
+
+const REPORT_STATUS = {
+    APPROVE:"APPROVE",
+    REJECT:"REJECT",
+    NOT_AVAILABLE:"NOT_AVAILABLE"
+}
+
+
+module.exports = {
+    YOTI_FLOW,
+    HTTP_STATUS_CODE,
+    HTTPMETHOD,
+    ENVIRONMENT,
+    SESSION_STATUS,
+    REPORT_STATUS,
+}
